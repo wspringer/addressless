@@ -1,6 +1,9 @@
 import { DuckDBInstance } from "@duckdb/node-api";
 import path from "path";
 
+/**
+ * Returns a promise to the connection to the database.
+ */
 const conn = (async () => {
   const db = await DuckDBInstance.create();
   return await db.connect();
@@ -54,6 +57,9 @@ const toAddress = (adres: Adres): Address => {
   };
 };
 
+/**
+ * Lookup an address by postcode and housenumber.
+ */
 export const lookupAddress = async (postcode: string, housenumber: string) => {
   const result = await (
     await conn
