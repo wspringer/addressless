@@ -3,7 +3,7 @@ import { lookupAddress } from ".";
 
 describe("lookupAddress", async () => {
   it("should allow you to lookup an address", async () => {
-    const result = await lookupAddress("5211ER", "5");
+    const result = await lookupAddress("4147AZ", "5");
     expect(result).toMatchSnapshot();
   });
 

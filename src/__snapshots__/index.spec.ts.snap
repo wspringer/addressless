@@ -2,15 +2,15 @@
 
 exports[`lookupAddress > should allow you to lookup an address 1`] = `
 {
-  "city": "'s-Hertogenbosch",
-  "district": "Binnenstad",
+  "city": "Asperen",
+  "district": "Asperen",
   "houseNumber": "5",
-  "latitude": 51.68805142,
-  "longitude": 5.30137882,
-  "municipality": "'s-Hertogenbosch",
-  "neighbourhood": "Binnenstad centrum",
-  "postcode": "5211ER",
-  "province": "Noord-Brabant",
-  "street": "Stoofstraat",
+  "latitude": 51.88051803,
+  "longitude": 5.11206571,
+  "municipality": "West Betuwe",
+  "neighbourhood": "Asperen Oude Kern",
+  "postcode": "4147AZ",
+  "province": "Gelderland",
+  "street": "Stadswal",
 }
 `;
