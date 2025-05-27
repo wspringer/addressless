@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`lookupAddress > should allow you to lookup an address 1`] = `
+{
+  "city": "'s-Hertogenbosch",
+  "district": "Binnenstad",
+  "houseNumber": "5",
+  "latitude": 51.68805142,
+  "longitude": 5.30137882,
+  "municipality": "'s-Hertogenbosch",
+  "neighbourhood": "Binnenstad centrum",
+  "postcode": "5211ER",
+  "province": "Noord-Brabant",
+  "street": "Stoofstraat",
+}
+`;

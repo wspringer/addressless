@@ -1,0 +1,21 @@
+{
+  "name": "addressless",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "keywords": ["address", "lookup", "dutch", "postcode", "huisnummer"],
+  "author": "Wilfred Springer",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.3.0-alpha.21"
+  }
+}
