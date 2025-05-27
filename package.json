@@ -2,14 +2,26 @@
   "name": "addressless",
   "version": "0.0.1",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "vitest",
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
   },
-  "keywords": ["address", "lookup", "dutch", "postcode", "huisnummer"],
+  "keywords": [
+    "address",
+    "lookup",
+    "dutch",
+    "postcode",
+    "huisnummer"
+  ],
   "author": "Wilfred Springer",
   "license": "MIT",
-  "description": "",
+  "description": "A library for Dutch address lookups",
   "devDependencies": {
     "@types/node": "^22.15.21",
     "typescript": "^5.8.3",
