@@ -59,7 +59,7 @@ export const lookupAddress = async (postcode: string, housenumber: string) => {
     await conn
   ).run(
     `
-    SELECT * FROM read_parquet('${path.join(__dirname, "data.parquet")}')
+    SELECT * FROM read_parquet('${path.join(__dirname, "..", "data.parquet")}')
     WHERE postcode = ? AND huisnummer = ?
   `,
     [postcode, housenumber]
