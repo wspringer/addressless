@@ -2,7 +2,7 @@
 
 In the Netherlands, every address is uniquely identified by postcode and
 housenumber. This library wraps a database with all addresses in the
-Netherlands, allowing you to quickly revolve the address details for postcode
+Netherlands, allowing you to quickly resolve the address details for postcode
 and housenumber combinations.
 
 ## Usage
