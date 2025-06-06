@@ -5,6 +5,10 @@ housenumber. This library wraps a database with all addresses in the
 Netherlands, allowing you to quickly revolve the address details for postcode
 and housenumber combinations.
 
+<a href="https://buymeacoffee.com/up8kgm1" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" />
+</a>
+
 ## Usage
 
 ```typescript
